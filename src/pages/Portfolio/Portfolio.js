@@ -48,7 +48,7 @@ const projects = [
   
     This project was driven by a dedication to care, kindness, and compassion. By choosing WordPress, we ensured that the digital experience aligns with the values of the medical group — a commitment to the community's well-being and the thriving success of their practice.
   `,
-    websiteLink: 'https://wwww.miraclemilegroup.com',
+    websiteLink: 'wwww.miraclemilegroup.com',
   },
   // Add more projects as needed
 ];
