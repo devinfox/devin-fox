@@ -6,8 +6,7 @@ const AboutText = () => {
     <div className="about-text" id="about-section">
       <div className="centered-content">
         <p>
-Devin Fox App Dev and Marketing is all about helping elite brands shine in the digital world.
-For over a decade, our team has been developing apps, websites, and designs. We offer beautiful full-stack ReactJS and website development on platforms including WordPress, Shopify and specialize in Adobe software design, including Photoshop, Illustrator, XD, and Indesign for the highest functioning online experiences.
+        For over a decade, we've been crafting exceptional digital experiences. Specializing in full-stack ReactJS development, WordPress, Shopify, and Adobe software, we elevate elite brands online. Beyond development, our strategic marketing expertise in SEO, blogging, backlink building, online PR, and Google AdWords ensures your brand shines in the competitive digital landscape. Partner with us for standout digital assets and strategic brand marketing.
 </p>
 <button className="book-now-button"><a className="book-button" href="#contact">Book Now</a></button>
       </div>
