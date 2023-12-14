@@ -21,21 +21,21 @@ const projects = [
         space mirrors the craftsmanship and uniqueness of our handmade pieces. It's more than a 
         shopping destination; it's an invitation to embrace sustainable and enduring fashion.
       `,
-        websiteLink: 'www.discodisiac.com',
+        websiteLink: 'https://www.discodisiac.com',
       },
   {
     id: 2,
     title: 'American Barbershop',
     image: barberImage,
     description: 'Experience the perfect blend of tradition and style on our Shopify-powered barbershop website. Serving multiple locations in OC, Santa Ana, Echo Park, Los Angeles, and Old Town Orange, our site showcases classic cuts and indulgent hot towel straight razor shaves. Built on Shopify, it seamlessly combines the timeless charm of a traditional barbershop with the convenience of online accessibility.',
-    websiteLink: 'www.americanbarbershop.com',
+    websiteLink: 'https://www.americanbarbershop.com',
   },
   {
     id: 3,
     title: 'Tamarisk Business Advisors',
     image: tamariskImage,
     description: 'Our mission was to translate the essence of Tamarisk Business Advisors into a digital experience. Through WordPress, we brought to life their commitment to a holistic and collaborative advisory approach. Our goal was to create a platform that mirrors their dedication to helping businesses thrive, protect legacies, and uphold timeless values. Explore the website to gain insights into its strategic vision, mission, and values. We are honored to have played a role in bringing their unique advisory services to the online world.',
-    websiteLink: 'www.tamariskadvisors.com',
+    websiteLink: 'https://www.tamariskadvisors.com',
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ const projects = [
   
     This project was driven by a dedication to care, kindness, and compassion. By choosing WordPress, we ensured that the digital experience aligns with the values of the medical group — a commitment to the community's well-being and the thriving success of their practice.
   `,
-    websiteLink: 'wwww.miraclemilegroup.com',
+    websiteLink: 'https://wwww.miraclemilegroup.com',
   },
   // Add more projects as needed
 ];
