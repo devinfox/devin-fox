@@ -1,0 +1,15 @@
+#fade-in-heading {
+    opacity: 0;
+}
+
+.results-bg {
+    background-color: white;
+    padding: 10%;
+}
+
+@media screen and (max-width: 786px) {
+    .results-bg {
+       padding-top: 50%;
+       padding-bottom: 50%;
+    }
+}
