@@ -21,7 +21,7 @@ const projects = [
         space mirrors the craftsmanship and uniqueness of our handmade pieces. It's more than a 
         shopping destination; it's an invitation to embrace sustainable and enduring fashion.
       `,
-        websiteLink: 'https://www.discodisiac.com',
+        websiteLink: 'https://discodisiac.com/',
       },
   {
     id: 2,

@@ -95,7 +95,7 @@ import './Results.css'; // Style this as needed
 const Results = () => {
     return (
         <div style={{backgroundColor: "white", padding: "10%",}}>
-        <h2 style={{fontFamily: "Montserrat", fontSize: "30px",}}>Coming Soon</h2>
+        <h2 class="coming-soon" style={{fontFamily: "Montserrat", fontSize: "30px",}}>Coming Soon</h2>
         </div>
     )
 }
