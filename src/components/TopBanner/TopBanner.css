@@ -1,0 +1,20 @@
+/* TopBanner.css */
+
+/* Set initial opacity of the images to 0 */
+.mobile-image,
+.desktop-image {
+  opacity: 0;
+}
+
+/* Add a transition for the opacity property */
+.mobile-image,
+.desktop-image,
+.top-banner.fade-in-active {
+  transition: opacity 1s ease-in-out;
+}
+
+/* Set opacity to 1 when the images are loaded (fade-in effect) */
+.top-banner.fade-in-active .mobile-image,
+.top-banner.fade-in-active .desktop-image {
+  opacity: 1;
+}

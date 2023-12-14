@@ -1,0 +1,101 @@
+/* In SplitBox.css */
+
+/* General styles */
+.split-box {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid white; /* Allows for stacking on small screens */
+}
+
+.split-box-item {
+  flex: 1; /* Each item takes up 50% of the width on desktop */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Link styles */
+.button-1 {
+  color: black;
+  text-decoration: none;
+}
+
+/* Image glow effect */
+.glow-image {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.15)); /* Adjust the values for the desired glow effect */
+}
+
+/* Heading styles */
+.split-box-item h2 {
+  font-size: 35px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Image styles */
+.split-box-item img {
+  max-width: 50%; /* Set the image width to 50% of its container on desktop */
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Button styles */
+.split-box-item button {
+  background-color: white;
+  color: #1a1a1a;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .split-box-item {
+    flex: 1; /* Each item takes up 100% width on mobile */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center text in mobile view */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+  }
+
+  .item-1,
+  .item-2 {
+    padding-bottom: 12%;
+  }
+
+  .split-box-item img {
+    width: 100%; /* Set the image width to 100% of its container in mobile view */
+    max-width: 75%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .click-here {
+    margin-top: 5%;
+    margin-bottom: 29px;
+    padding: 3% 6%;
+  }
+}
+
+/* Item specific styles */
+.item-1,
+.item-2 {
+  border: 1px solid white;
+  padding-bottom: 6%;
+  padding-top: 6%;
+}
+
+.click-here {
+  margin-top: 6%;
+  padding: 3% 6%;
+}

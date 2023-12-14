@@ -1,0 +1,112 @@
+/* Portfolio.css */
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .project-item {
+    width: 50%;
+    box-sizing: border-box; /* Keep this for consistent box sizing */
+    cursor: pointer;
+    padding: 10px; /* Add padding to create space between items */
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border-radius for a smoother appearance */
+    object-fit: cover; /* Ensure images maintain their aspect ratio */
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media screen and (max-width: 767px) {
+    .project-item {
+      width: 100%;
+    }
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+  }
+
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust the padding as needed */
+  }
+
+  .view-site {
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+  
+  .top-bar h2 {
+    margin: 0; /* Remove default margin for the title */
+  }
+  
+  .top-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555; /* Adjust the color as needed */
+  }
+  
+  .project-preview {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    margin-top: 10px; /* Add spacing between the top bar and the image */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Text color */
+    font-family: 'Montserrat';
+    font-weight: 100 !important;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .portfolio-image {
+      opacity: 50%;
+     
+  }
