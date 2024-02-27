@@ -2,13 +2,14 @@ import React from 'react';
 import './SplitBox.css';
 import adwords from './adwords-screenshot.png';
 import bossel from './dr-bossel-monitor-iphone.png'
+import vluxe from './vluxe-phone-and-monitor.png'
 
 const SplitBox = () => {
   return (
     <div className="split-box">
       <div className="split-box-item item-1">
         <h2>App & Web Development</h2>
-        <img class="glow-image" src={bossel} alt="Image 1" />
+        <img class="glow-image" src={vluxe} alt="Image 1" />
         <button class="click-here"><a class="button-1" href="/portfolio">Projects</a></button>
       </div>
       <div className="split-box-item item-2">
