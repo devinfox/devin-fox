@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import bannerDesktop from './topBanner.jpg';
-import bannerMobile from './topBanner-Mobile.jpg';
+import bannerDesktop from './topBanner-f1.jpg';
+import bannerMobile from './topBanner-Mobile-f1.jpg';
 import './TopBanner.css';
 
 const TopBanner = () => {
